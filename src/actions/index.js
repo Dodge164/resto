@@ -4,5 +4,47 @@ const menuLoaded = (newMenu) => {
     payload: newMenu,
   };
 };
+const menuRequested = () => {
+  return {
+    type: 'MENU_REQUESTED',
+  };
+};
 
-export { menuLoaded };
+const addedToCart = (id) => {
+  return {
+    type: 'ITEM_ADD_TO_CART',
+    payload: id,
+  };
+};
+
+const deleteFromCart = (id) => {
+  return {
+    type: 'ITEM_REMOVE_FROM_CART',
+    payload: id,
+  };
+};
+
+export { menuLoaded, menuRequested, addedToCart, deleteFromCart };
+
+/* Следующий урок
+
+
+const menuError = () => {
+  return {
+      type: 'MENU_ERROR',
+  }
+}
+
+
+
+
+
+export {
+  menuLoaded,
+  menuRequested,
+  menuError, 
+  addedToCart, 
+  deleteFromCart
+};
+
+*/

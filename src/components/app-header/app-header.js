@@ -18,3 +18,13 @@ const AppHeader = ({ total }) => {
 };
 
 export default AppHeader;
+
+/* Следующий урок
+const mapStateToProps = ({total}) => {
+    return{
+        total
+    }
+}
+
+export default connect(mapStateToProps)(AppHeader);
+*/
