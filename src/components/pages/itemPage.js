@@ -1,4 +1,4 @@
-/*import React, { Component } from 'react';
+import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import WithRestoService from '../hoc/';
 import Spinner from '../spinner';
@@ -86,4 +86,3 @@ const mapDispatchToProps = {
 export default WithRestoService()(
   connect(mapStateToProps, mapDispatchToProps)(ItemPage)
 );
-*/

@@ -24,27 +24,10 @@ const deleteFromCart = (id) => {
   };
 };
 
-export { menuLoaded, menuRequested, addedToCart, deleteFromCart };
-
-/* Следующий урок
-
-
 const menuError = () => {
   return {
-      type: 'MENU_ERROR',
-  }
-}
-
-
-
-
-
-export {
-  menuLoaded,
-  menuRequested,
-  menuError, 
-  addedToCart, 
-  deleteFromCart
+    type: 'MENU_ERROR',
+  };
 };
 
-*/
+export { menuLoaded, menuRequested, addedToCart, deleteFromCart, menuError };
